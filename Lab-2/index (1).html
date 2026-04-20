@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<title>Async Weather Tracker</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    Async Weather Tracker
+</header>
+
+<div class="container">
+
+    <!-- Left Panel -->
+    <div class="left-panel">
+
+        <div class="card">
+            <h3>Search City</h3>
+
+            <input type="text" id="cityInput" placeholder="Delhi, London">
+            <button id="searchBtn">Search</button>
+
+            <h4>Search History</h4>
+            <ul id="history"></ul>
+        </div>
+
+    </div>
+
+    <!-- Right Panel -->
+    <div class="right-panel">
+
+        <div class="card">
+            <h3>Weather Info</h3>
+            <div id="weatherResult">Search a city to see weather</div>
+        </div>
+
+    </div>
+
+</div>
+
+<!-- Console Section -->
+
+<div class="console-card">
+
+<h3>Console – Event Loop</h3>
+<div id="consoleBox"></div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
